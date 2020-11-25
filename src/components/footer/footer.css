@@ -1,0 +1,45 @@
+.fetchUp{
+    width:100%;
+    position: fixed;
+    top:84%;
+}
+.fetchDown{
+    width:100%;
+    position: fixed;
+    top:91%;
+}
+.viewbutton{
+    cursor: pointer;
+    margin:0;
+    padding: 0;
+    margin-bottom: 28px;;
+}
+.footer_progress-bar{
+    margin:0;
+    padding: 0;
+}
+.desktop{
+    margin:0;
+    padding: 0;
+}
+.footer_button{
+    margin:0;
+    padding: 0;
+    margin-top:16px;
+
+}
+.doneper{
+    font-weight: 600;
+    font-size: 10px;
+}
+.doneper span{
+    font-size: 17px;
+}
+p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.footer{
+    width:100% !important;
+    position: relative ;
+  }
