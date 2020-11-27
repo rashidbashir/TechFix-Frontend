@@ -18,7 +18,7 @@ function QuoteDetailFourth(props) {
     console.log(devicetypename);
     console.log(classificationname);
     console.log(modelname);
-    fetch("/ColorByModel",{
+    fetch("/api/ColorByModel",{
       method:"post",
       headers:{
         "Content-Type":"application/json"
