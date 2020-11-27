@@ -11,7 +11,7 @@ function QuoteDetailFirst(props) {
   const history=useHistory();
 
   useEffect(()=>{
-    fetch("/allDeviceTypes")
+    fetch("/api/allDeviceTypes")
     .then(res=>res.json())
     .then(result=>{
       console.log(result);
