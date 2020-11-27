@@ -58,7 +58,7 @@ function QuoteDetailSix(props) {
   }
   const sendInquary=()=>{
     setInqStart(true);
-    fetch("/sendmail",{
+    fetch("/api/sendmail",{
       method:"post",
       headers:{
         "Content-Type":"application/json"
