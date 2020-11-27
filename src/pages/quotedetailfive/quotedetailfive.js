@@ -85,7 +85,7 @@ function QuoteDetailFive(props) {
     console.log(classificationname);
     console.log(modelname);
     console.log(colorname);
-    fetch("/allServiceOfModel",{
+    fetch("/api/allServiceOfModel",{
       method:"post",
       headers:{
         "Content-Type":"application/json"
@@ -98,7 +98,7 @@ function QuoteDetailFive(props) {
       console.log(result);
       setServiceOfModel(result.categ!==null?result.categ.services:null);
     });
-    fetch("/allServiceOfClassification",{
+    fetch("/api/allServiceOfClassification",{
       method:"post",
       headers:{
         "Content-Type":"application/json"
@@ -111,7 +111,7 @@ function QuoteDetailFive(props) {
       console.log(result);
       setServiceOfClassification(result.categ!==null?result.categ.services:null);
     });
-    fetch("/allServiceOfDevice",{
+    fetch("/api/allServiceOfDevice",{
       method:"post",
       headers:{
         "Content-Type":"application/json"
