@@ -21,7 +21,7 @@ function QuoteDetailthird(props) {
   useEffect(() => {
     console.log(devicetypename);
     console.log(classificationname);
-    fetch("/ModelByClassification",{
+    fetch("/api/ModelByClassification",{
       method:"post",
       headers:{
         "Content-Type":"application/json"
