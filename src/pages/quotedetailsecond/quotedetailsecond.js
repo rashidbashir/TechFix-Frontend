@@ -21,7 +21,7 @@ function QuoteDetailSecond(props) {
   
 
   useEffect(() => {
-    fetch("/ClassificationByDevice",{
+    fetch("/api/ClassificationByDevice",{
       method:"post",
       headers:{
         "Content-Type":"application/json"
